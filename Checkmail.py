@@ -41,7 +41,7 @@ class GmailWrapper:
         self.server.select_folder(folder)
 
 
-gmailWrapper = GmailWrapper('imap.gmail.com', 'killernixen@gmail.com', 'TEST1234')
+gmailWrapper = GmailWrapper('imap.gmail.com', 'my@email.com', 'myPassword')
 
 
 MAIL_CHECK_FREQ = 60 # check mail every 60 seconds
